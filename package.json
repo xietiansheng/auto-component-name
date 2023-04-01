@@ -1,0 +1,40 @@
+{
+  "name": "vite-plugin-vue-auto-component-name",
+  "version": "1.0.0",
+  "description": "Automatic generation of Vue3 component names",
+  "main": "dist/index.js",
+  "type": "module",
+  "files": [
+    "dist",
+    "assets",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc && node esbuild.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xietiansheng/auto-component-name.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xietiansheng/auto-component-name/issues"
+  },
+  "homepage": "https://github.com/xietiansheng/auto-component-name#readme",
+  "devDependencies": {
+    "@babel/types": "^7.21.3",
+    "@types/babel__core": "^7.20.0",
+    "@types/babel__generator": "^7.6.4",
+    "@types/node": "^18.15.11",
+    "esbuild": "^0.17.14",
+    "typescript": "^5.0.3",
+    "vite": "^4.2.1"
+  },
+  "dependencies": {
+    "@babel/core": "^7.21.3",
+    "@babel/generator": "^7.21.3",
+    "node": "^19.8.1"
+  }
+}
